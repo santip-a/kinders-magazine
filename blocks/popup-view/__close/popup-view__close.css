@@ -1,0 +1,13 @@
+.popup-view__close {
+  font-size: 50px;
+  position: absolute;
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+  top: -15px;
+}
+
+.popup-view__close:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.5);
+}

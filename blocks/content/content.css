@@ -1,0 +1,8 @@
+.content {
+  background-color: rgba(248, 218, 218, 1);
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.card-item__image {
+  width: 100%;
+  height: 100%;
+}
+
+
+.card-item__image:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 0px 18px 10px rgba(26, 12, 238, 0.39);
+  -moz-box-shadow: 1px 0px 18px 10px rgba(26, 12, 238, 0.39);
+  box-shadow: 1px 0px 18px 10px rgba(26, 12, 238, 0.39);
+  transition: all 0.2s ease;
+}

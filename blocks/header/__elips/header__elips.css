@@ -1,0 +1,36 @@
+.header__elips {
+  position: absolute;
+  background-image: url(../../../images/Ellipse\ 2.svg);
+  background-repeat: no-repeat;
+  left: 30px;
+  top: 17px;
+  color: blue;
+  width: 1050px;
+  height: 235px;
+  z-index: 0;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .header__elips {
+    width: 980px;
+    height: 220px;
+  }
+}
+
+
+@media screen and (max-width: 1041px) {
+  .header__elips {
+    top: 50px;
+    width: 680px;
+    height: 140px;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 793px) {
+  .header__elips {
+    display: none;
+  }
+}

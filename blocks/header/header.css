@@ -1,0 +1,22 @@
+.header {
+  background-color: rgba(247, 156, 248, 1);
+  position: relative;
+  min-height: 235px;
+  padding-top: 16px;
+  padding-left: 22px;
+  display: flex;
+}
+
+
+
+
+
+/* @media screen and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+} */
+
+
+

@@ -1,0 +1,9 @@
+.card-item {
+  width: 270px;
+  height: 412px;
+  background-color: rgba(88, 165, 255, 0.31);
+  border: 3px solid rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.popup-view__leaf {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  border-radius: 0 3px 3px 0;
+  margin: 25px;
+}
+
+.popup-view__leaf:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

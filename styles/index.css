@@ -1,0 +1,33 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__elips/header__elips.css);
+@import url(../blocks/header/__rainbow/header__rainbow.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__title/content__title.css);
+
+@import url(../blocks/cards-list/cards-list.css);
+
+@import url(../blocks/card-item/card-item.css);
+@import url(../blocks/card-item/__title/card-item__title.css);
+@import url(../blocks/card-item/__text/card-item__text.css);
+@import url(../blocks/card-item/__image/card-item__image.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/popup-view/popup-view.css);
+@import url(../blocks/popup-view/_hidden/popup-view_hidden.css);
+@import url(../blocks/popup-view/__elem/popup-view__elem.css);
+@import url(../blocks/popup-view/__image/popup-view__image.css);
+@import url(../blocks/popup-view/__leaf/popup-view__leaf.css);
+@import url(../blocks/popup-view/__close/popup-view__close.css);
+@import url(../blocks/popup-view/__number/popup-view__number.css);
+
+
+

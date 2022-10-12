@@ -1,0 +1,10 @@
+.header__rainbow {
+  position: absolute;
+  background-image: url(../../../images/rainbow.png);
+  right: 0;
+  top: 0px;
+  color: blue;
+  width: 650px;
+  height: 235px;
+  z-index: 2;
+}

@@ -1,0 +1,128 @@
+<!--
+  Чтобы добавить добавить новый журнал, надо удалить болк card-item__title,
+  вместо него всавить img блок с обязательным id в котором указать номер папки каталока
+-->
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Детская правда</title>
+  <link rel="shortcut icon" href="./images/gard.png">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <h1 class="header__title">детская правда</h1>
+      <span class="header__elips"></span>
+      <span class="header__rainbow"></span>
+    </header>
+
+    <main class="content">
+      <h2 class="content__title">журнал дошкольного отделения мбоу виндовской сош № 7</h2>
+
+      <section class="cards-list">
+        <div class="card-item" >
+          <img class="card-item__image" id="10" src="./images/magazine/10/1.jpg" alt="">
+        </div>
+
+        <div class="card-item">
+            <img class="card-item__image" id="11" src="./images/magazine/11/1.jpg" alt="">
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">декабрь 2022</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">январь 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">феврал 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">март 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">апрель 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">май 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">июнь 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">июль 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">август 2023</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item__title">
+            <p class="card-item__text">выпуск</p>
+            <p class="card-item__text">сентябрь 2022</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <div class="popup-view popup-view_hidden">
+      <a class="popup-view__leaf  popup-view__previous" >&#10094;</a>
+      <div class="popup-view__elem">
+        <span class="popup-view__number">1/6</span>
+        <img class="popup-view__image" src="./images/magazine/10/1.jpg" alt="">
+        <a class="popup-view__leaf popup-view__close"> &#215;</a>
+      </div>
+      <a class="popup-view__leaf popup-view__next">&#10095;</a>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
