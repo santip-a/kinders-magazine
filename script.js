@@ -58,3 +58,5 @@ buttonNext.addEventListener("click" , () => turnPages('next'));
 buttonPrev.addEventListener("click" , () => turnPages('prev'));
 
 magazins.forEach(elem => elem.addEventListener("click" , (evt) => openPopup(evt)))
+
+

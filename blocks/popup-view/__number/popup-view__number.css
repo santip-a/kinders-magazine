@@ -6,3 +6,11 @@
   left: -60px;
   color: white;
 }
+
+@media screen and (max-width: 730px) {
+  .popup-view__number {
+    padding-left: 24px;
+    margin: 0;
+    font-size: 15px;
+  }
+}

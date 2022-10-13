@@ -11,3 +11,12 @@
   background-color: rgba(0, 0, 0, 0);
   color: rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 730px) {
+  .popup-view__close {
+    padding-left: 24px;
+    margin: 0;
+    font-size: 25px;
+    top: -5px
+  }
+}
