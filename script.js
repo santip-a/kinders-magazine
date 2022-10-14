@@ -27,7 +27,7 @@ const closePopup = () => {
 const openPopup = (evt) => {
   popUp.classList.remove('popup-view_hidden');
   catlogNumber = Number(evt.target.id);
-  pagesMagazine = numberOfPages[catlogNumber-10]
+  pagesMagazine = numberOfPages[catlogNumber-9]
   imagepopUp.src = `./images/magazine/${catlogNumber}/${currentPage}.jpg`;
   numberPage.textContent = `${currentPage}/${pagesMagazine}`
 }
