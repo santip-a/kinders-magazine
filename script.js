@@ -14,7 +14,7 @@ let pagesMagazine = 0;
 let currentPage = 1;
 let catlogNumber = 0;
 
-const numberOfPages = [6, 5] ; // массив кол-ва файлов картинок в папка, начиная с 10 папки
+const numberOfPages = [6, 6]; // массив кол-ва файлов картинок в папка, начиная с 10 папки
 
 
 const closePopup = () => {
@@ -27,7 +27,7 @@ const closePopup = () => {
 const openPopup = (evt) => {
   popUp.classList.remove('popup-view_hidden');
   catlogNumber = Number(evt.target.id);
-  pagesMagazine = numberOfPages[catlogNumber-9]
+  pagesMagazine = numberOfPages[catlogNumber - 9]
   imagepopUp.src = `./images/magazine/${catlogNumber}/${currentPage}.jpg`;
   numberPage.textContent = `${currentPage}/${pagesMagazine}`
 }
@@ -53,10 +53,10 @@ function turnPages(tab) {
 
 
 
-buttonClosePopup.addEventListener("click" , () => closePopup());
-buttonNext.addEventListener("click" , () => turnPages('next'));
-buttonPrev.addEventListener("click" , () => turnPages('prev'));
+buttonClosePopup.addEventListener("click", () => closePopup());
+buttonNext.addEventListener("click", () => turnPages('next'));
+buttonPrev.addEventListener("click", () => turnPages('prev'));
 
-magazins.forEach(elem => elem.addEventListener("click" , (evt) => openPopup(evt)))
+magazins.forEach(elem => elem.addEventListener("click", (evt) => openPopup(evt)))
 
 
