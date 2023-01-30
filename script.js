@@ -14,7 +14,7 @@ let pagesMagazine = 0;
 let currentPage = 1;
 let catlogNumber = 0;
 
-const numberOfPages = [6, 6, 6]; // массив кол-ва файлов картинок в папка, начиная с 9 папки
+const numberOfPages = [6, 6, 6, 8]; // массив кол-ва файлов картинок в папка, начиная с 9 папки
 
 
 const closePopup = () => {
